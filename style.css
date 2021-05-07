@@ -1,5 +1,5 @@
 body{
-    background-image: url('images/image1001.png');
+    background-image: url('images/58458c90a39ccfdb4c175922_HECO_LINE_ANIMATION_v04-poster-00001.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -16,26 +16,37 @@ body{
 }
 
 .login_block {
-      border: 2px solid silver;
-      background-color: silver;
+      /* background-color: silver; */
       float: right;
       height: 98%;
       width: 90%;
-      margin-top: 14%;
+      margin-top: 10%;
+      box-shadow: 0 0 25px rgba(0,0,0,0.7);
 }
 
 .right_block{
   height: 100%;
   width: 35%;
   float: right;
-  background-color: #4c56c0ff;
+  /* background-color: #4c56c0ff; */
+  background-color: #333333;
   padding: 0%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 
 .left_login_block{
   height: 100%;
   width: 65%;
   float: left;
+  background-color: silver;
+}
+
+.center_image{
+    width: 100%;
+    height: 100%;
+    background-image: url('images/toppng.com-logo-pull-bear-pull-and-bear-logo-969x152.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sign_up_button{
@@ -45,11 +56,12 @@ body{
   padding: 3px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #4c56c0ff;
+  background-color: #333333;
   float: right;
-  border: 1px solid white;
+  border: 1px solid rgba(255,255,255, 0.5);
   border-radius: 18px;
   color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .tour_button{
@@ -59,26 +71,30 @@ body{
   padding: 3px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #4c56c0ff;
+  background-color: #333333;
   float: right;
-  border: 1px solid white;
+  border: 1px solid rgba(255,255,255, 0.5);
   border-radius: 18px;
   color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .greeting{
   font-style: bold;
   margin-top: 25%;
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: white;
   text-align: center;
+  opacity: 0.8;
 }
 
 .textsign{
-  word-spacing: 0.2em;
+  word-spacing: 0.1em;
+  font-size: 1.2em;
   margin-top: 1.5%;
   color: silver;
   text-align: center;
+  opacity: 0.8;
 }
 
 .user_name_div{
@@ -97,6 +113,49 @@ body{
 }
 
 input{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 55%;
+  height: 35px;
+  font-size: 1.3em;
   color: silver;
   background-color: none;
+  text-indent: 10px;
+}
+
+input{
+    border: 0px solid #000;
+    border-radius: 8px;
+    padding: 5px 5px 5px 40px;
+    height: 32px;
+    background: url(https://png.pngtree.com/png-vector/20190917/ourlarge/pngtree-circle-password-icon-vectors-png-image_1738057.jpg) no-repeat 5px 2px;
+    background-size: auto 90%;
+    background-color: #1c1c1c;
+}
+
+.forgot{
+    margin-top: 5%;
+    margin-right: 20%;
+    text-align: right;
+    opacity: 0.7;
+}
+
+.txt2{
+    color: silver;
+}
+
+.login_button{
+  display: flex;
+  align-items: center;
+}
+
+.login100{
+  margin-left: 21%;
+  margin-top: 5%;
+  height: 3.5em;
+  width: 25em;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 0 0 25px rgba(0,0,0,0.5);
 }
