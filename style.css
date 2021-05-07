@@ -1,0 +1,102 @@
+body{
+    background-image: url('images/image1001.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.boundaries{
+  width: 100%;
+  height: 768px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: -40%; */
+}
+
+.login_block {
+      border: 2px solid silver;
+      background-color: silver;
+      float: right;
+      height: 98%;
+      width: 90%;
+      margin-top: 14%;
+}
+
+.right_block{
+  height: 100%;
+  width: 35%;
+  float: right;
+  background-color: #4c56c0ff;
+  padding: 0%;
+}
+
+.left_login_block{
+  height: 100%;
+  width: 65%;
+  float: left;
+}
+
+.sign_up_button{
+  height: 2.5em;
+  width: 8em;
+  margin: 15px;
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #4c56c0ff;
+  float: right;
+  border: 1px solid white;
+  border-radius: 18px;
+  color: white;
+}
+
+.tour_button{
+  height: 2.5em;
+  width: 8em;
+  margin: 15px 3px 15px 15px;
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #4c56c0ff;
+  float: right;
+  border: 1px solid white;
+  border-radius: 18px;
+  color: white;
+}
+
+.greeting{
+  font-style: bold;
+  margin-top: 25%;
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+}
+
+.textsign{
+  word-spacing: 0.2em;
+  margin-top: 1.5%;
+  color: silver;
+  text-align: center;
+}
+
+.user_name_div{
+  margin-top: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4c56c0ff;
+}
+
+.user_password_div{
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  color: silver;
+  background-color: none;
+}
